@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message uart_c {
+    string name = 1;
+    int32 baudrate = 2;
+    int32 max_process_size = 3;
+}
